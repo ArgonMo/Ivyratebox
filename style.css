@@ -2,7 +2,7 @@ body{
     background-color: #d8d8d8;
 }
 
-.container{
+.container-ivy{
     direction: rtl;
     /* width: 800px; */
     height: 500px;
@@ -12,7 +12,7 @@ body{
     
 }
 
-.roomiz-title{
+.roomiz-title-ivy{
     color: #878787;
     text-align: right;
     font-family: Kalameh;
@@ -23,12 +23,12 @@ body{
     margin: 15px;
 }
 
-.tags{
+.tags-ivy{
     list-style: none;
     display: inline-block;
 }
 
-.tag{
+.tag-ivy{
 
 
     border-radius: 20px;
@@ -40,7 +40,7 @@ body{
 }
 
 
-.contents{
+.contents-ivy{
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
@@ -48,7 +48,7 @@ body{
 
 }
 
-.rates{
+.rates-ivy{
     display: flex;
     /* justify-content: center; */
     /* width: 100%; */
@@ -57,7 +57,7 @@ body{
     margin: 20px;
 }
 
-.point{
+.point-ivy{
     vertical-align: middle;
     margin: 5px;
     /* display: inline-block; */
@@ -68,12 +68,12 @@ body{
     color:#E57D1C;
 }
 
-.rate{
+.rate-ivy{
     /* display: inline-block; */
     vertical-align: middle;
 }
 
-.progress-bar{
+.progress-bar-ivy{
     width: 100%;
     height: 20px;
     border-radius: 35px;
@@ -81,24 +81,24 @@ body{
 }
 
 
-.progress{
+.progress-ivy{
     width: 100%;
     height: 20px;
     border-radius: 35px;
     background-color: #888686;
 }
-h3{
+.rate-titlr-ivy{
     margin-bottom: 0;
 }
 
-.review{
+.review-ivy{
     padding: 30px;
     text-align: justify;
 }
 
 
 @media(max-width:600px){
-    .contents{
+    .contents-ivy{
         flex-direction: column;
     }
 }
